@@ -2,8 +2,9 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import './About.css';
-import dsaCard from '../../assets/dsaCard.png';
+//import dsaCard from '../../assets/dsaCard.png';
 import devCard from '../../assets/devCard.png';
+import profileCard from '../../assets/profileCard.png'
 
 export default function About() {
   const [ref, inView] = useInView({
@@ -43,7 +44,7 @@ export default function About() {
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
                     <img 
-                      src={dsaCard} 
+                      src={profileCard} 
                       alt="DSA Profile Card"
                       className="codolio-image"
                     />
@@ -139,7 +140,7 @@ export default function About() {
           <div className="github-activity-graph">
             <a href="https://github.com/shivamrajpoot7070" target="_blank" rel="noopener noreferrer">
               <img 
-                src="https://github-readme-activity-graph.vercel.app/graph?username=ShubhamKumar6299&theme=tokyo-night&hide_border=true&area=true&custom_title=Shubham%20Kumar's%20Contribution%20Graph" 
+                src="https://github-readme-activity-graph.vercel.app/graph?username=shivamrajpoot7070&theme=tokyo-night&hide_border=true&area=true&custom_title=Shubham%20Kumar's%20Contribution%20Graph" 
                 alt="GitHub Activity Graph"
                 className="activity-graph-img"
                 loading="lazy"

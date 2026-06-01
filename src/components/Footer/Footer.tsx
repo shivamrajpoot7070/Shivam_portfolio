@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-brand">
             <a href="#hero" className="footer-logo">
-              <span className="logo-text">Shubham</span>
+              <span className="logo-text">Shivam</span>
               <span className="logo-dot">.</span>
             </a>
             <p className="footer-tagline">
@@ -29,24 +29,23 @@ export default function Footer() {
 
             <div className="footer-column">
               <h4>Projects</h4>
-              <a href="https://burnbin.shubhx.dev" target="_blank" rel="noopener noreferrer">BurnBin</a>
-              <a href="https://github.com/ShubhamKumar6299/ecommerce-mern" target="_blank" rel="noopener noreferrer">E-Commerce</a>
-              <a href="https://github.com/ShubhamKumar6299/stream-wave" target="_blank" rel="noopener noreferrer">Meet Suite</a>
+              <a href="https://prepprime.vercel.app/" target="_blank" rel="noopener noreferrer">Ai-Career-Coach</a>
+              <a href="https://project-partners-khkm.vercel.app/" target="_blank" rel="noopener noreferrer">Project Partners</a>
+              <a href="https://github.com/shivamrajpoot7070/Task_Scheduler_Project" target="_blank" rel="noopener noreferrer">Task Scheduler Platform</a>
             </div>
 
             <div className="footer-column">
               <h4>Connect</h4>
-              <a href="https://github.com/ShubhamKumar6299" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://linkedin.com/in/shubhamkumar6299" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href="https://twitter.com/ShubhamKumar6299" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="mailto:satyaanandsharma9534@gmail.com">Email</a>
+              <a href="https://github.com/shivamrajpoot7070" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://linkedin.com/in/shivamkumar1828" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="mailto:shivamrajpoot7070@gmail.com">Email</a>
             </div>
           </div>
         </div>
 
         <div className="footer-bottom">
           <p className="copyright">
-            © {currentYear} Shubham Kumar. All rights reserved.
+            © {currentYear} Shivam Kumar. All rights reserved.
           </p>
           <p className="made-with">
             Made with <span className="heart">❤️</span> and React + Three.js
