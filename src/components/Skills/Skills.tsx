@@ -240,7 +240,7 @@ export default function Skills() {
               />
               <div className="codolio-fallback">
                 <p>View my complete coding journey on Codolio</p>
-                <a href="https://codolio.com/profile/ToUrIsT45" target="_blank" rel="noopener noreferrer" className="codolio-btn">
+                <a href="https://codolio.com/profile/shivam" target="_blank" rel="noopener noreferrer" className="codolio-btn">
                   Visit Profile
                 </a>
               </div>
