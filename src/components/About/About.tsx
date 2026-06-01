@@ -66,22 +66,31 @@ export default function About() {
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <p className="about-text">
-              I'm a passionate <span className="highlight">Full Stack Developer</span> with a deep 
-              interest in building secure, performant, and user-friendly web applications. I love 
-              tackling complex problems and turning ideas into reality through code.
-            </p>
+           
+<p className="about-text">
+  I'm a passionate <span className="highlight">Backend Developer</span> with a strong 
+  focus on building scalable, secure, and efficient server-side applications. I enjoy 
+  designing APIs, working with databases, and optimizing system performance to deliver 
+  reliable and high-quality solutions. Turning complex problems into structured, 
+  maintainable backend systems is what excites me the most.
+</p>
+
+            
+           
+<p className="about-text">
+  My expertise lies in building robust backend systems using 
+  <span className="highlight"> Node.js</span> and 
+  <span className="highlight"> ExpressJS</span>, with a strong focus on designing 
+  scalable APIs, managing databases, and ensuring high performance. I emphasize 
+  writing secure, maintainable code and have a deep interest in 
+  <span className="highlight"> system design</span>, 
+  <span className="highlight"> cryptography</span>, and 
+  <span className="highlight"> application security</span>.
+</p>
+
             
             <p className="about-text">
-              My expertise spans across modern frontend frameworks like <span className="highlight">React</span> and
-              <span className="highlight"> Next.js</span>, robust backend technologies including 
-              <span className="highlight"> Node.js</span> and <span className="highlight">Python</span>, 
-              and I have a strong focus on <span className="highlight">cryptography</span> and 
-              <span className="highlight"> security</span>.
-            </p>
-            
-            <p className="about-text">
-              With <span className="highlight">800+ LeetCode</span> problems and <span className="highlight">600+ GeeksforGeeks</span> solutions, 
+              With <span className="highlight">900+ LeetCode</span> problems and <span className="highlight">400+ CodingNinjas</span> solutions, 
               I've honed my algorithmic thinking and problem-solving skills. When I'm not coding production apps, 
               you'll find me exploring the latest in web technologies and contributing to open-source.
             </p>

@@ -93,7 +93,7 @@ export default function Navbar() {
           </div>
 
           <motion.a
-            href="https://github.com/ShubhamKumar6299"
+            href="https://github.com/shivamrajpoot7070/"
             target="_blank"
             rel="noopener noreferrer"
             className="navbar-cta"
