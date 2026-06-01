@@ -49,8 +49,8 @@ const skills: Skill[] = [
   // Backend
   { name: 'Node.js', icon: <SiNodedotjs />, color: '#339933', category: 'Backend' },
   { name: 'Express.js', icon: <SiExpress />, color: '#ffffff', category: 'Backend' },
-  { name: 'Python', icon: <SiPython />, color: '#3776ab', category: 'Backend' },
-  { name: 'Java', icon: <FaJava />, color: '#ed8b00', category: 'Backend' },
+  { name: 'Redis', icon: <SiPython />, color: '#3776ab', category: 'Backend' },
+  { name: 'JavaScript', icon: <FaJava />, color: '#ed8b00', category: 'Backend' },
   { name: 'MongoDB', icon: <SiMongodb />, color: '#47a248', category: 'Backend' },
   { name: 'PostgreSQL', icon: <SiPostgresql />, color: '#336791', category: 'Backend' },
   { name: 'Firebase', icon: <SiFirebase />, color: '#ffca28', category: 'Backend' },

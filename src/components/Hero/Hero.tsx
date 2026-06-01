@@ -34,7 +34,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Shubham Kumar
+            Shivam Kumar
           </motion.h1>
           
           <motion.h2 
@@ -43,7 +43,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            Full Stack Developer
+            Backend Developer
           </motion.h2>
           
           <motion.p 
@@ -82,12 +82,12 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 1.4 }}
         >
           <div className="stat-item">
-            <span className="stat-number">800+</span>
+            <span className="stat-number">900+</span>
             <span className="stat-label">LeetCode Problems</span>
           </div>
           <div className="stat-item">
-            <span className="stat-number">600+</span>
-            <span className="stat-label">GFG Solutions</span>
+            <span className="stat-number">400+</span>
+            <span className="stat-label">CodingNinjas Solutions</span>
           </div>
           <div className="stat-item">
             <span className="stat-number">10+</span>

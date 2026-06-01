@@ -18,35 +18,35 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "BurnBin",
-    description: "Secure ephemeral pastebin with client-side AES-256-GCM encryption. Messages self-destruct after viewing or expiration. Zero-knowledge architecture ensures complete privacy.",
-    tech: ["React", "TypeScript", "Node.js", "MongoDB", "Web Crypto API"],
+    title: "AI-Career-Coach",
+    description: "AI-powered career coaching platform that provides personalized interview preparation, resume feedback, and job search assistance for software engineers.",
+    tech: ["NextJS", "React", "Node.js", "NeonDB", "clerk", "Tailwind CSS","Redis"],
     color: "#ef4444",
-    link: "https://burnbin.shubhx.dev",
-    github: "https://github.com/ShubhamKumar6299/burnbin",
-    features: ["AES-256-GCM Encryption", "Self-Destructing Messages", "Zero-Knowledge", "Password Protection"],
+    link: "https://prepprime.vercel.app/",
+    github: "https://github.com/shivamrajpoot7070/ai-career-coach",
+    features: ["Quizzes for Interview Preparation", "company wise DSA Practice", "ATS checker", "Password Protection","Cover Letter Generator"],
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80"
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
-    description: "Full-stack MERN shopping platform with complete user authentication, product catalog, shopping cart, and secure payment integration via Stripe.",
-    tech: ["MongoDB", "Express.js", "React", "Node.js", "Stripe", "Redux"],
+    title: "Project Partners",
+    description: "Full-stack MERN Job finding platform with complete user authentication, real-tim job application system, and an admin dashboard for managing job listings and user accounts.",
+    tech: ["MongoDB", "Express.js", "React", "Node.js", "JWT", "Redux"],
     color: "#10b981",
-    link: "#",
-    github: "https://github.com/ShubhamKumar6299/ecommerce-mern",
-    features: ["User Authentication", "Payment Integration", "Order Management", "Admin Dashboard"],
+    link: "https://project-partners-khkm.vercel.app/",
+    github: "https://github.com/shivamrajpoot7070/Project_partners",
+    features: ["User Authentication", "Online Interview for students", "Job Management", "Admin Dashboard"],
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=400&fit=crop&q=80"
   },
   {
     id: 3,
-    title: "Meet Suite",
-    description: "Real-time video conferencing application built with Next.js and WebRTC. Features include screen sharing, chat, and multiple participant support.",
-    tech: ["Next.js", "TypeScript", "WebRTC", "Socket.io", "Tailwind CSS"],
+    title: "Task Scheduler Platform",
+    description: "A production-grade distributed task scheduling system with retry mechanisms, dead-letter queue, worker processing, and real-time monitoring dashboard.",
+    tech: ["NodeJs", "ExpressJS", "SQl", "Redis", "ZOD","PINO","NextJS","Tailwind CSS"],
     color: "#8b5cf6",
-    link: "https://meet-suite.vercel.app/",
-    github: "https://github.com/ShubhamKumar6299/meet-suite",
-    features: ["Video Conferencing", "Screen Sharing", "Real-time Chat", "Room Management"],
+    link: "#",
+    github: "https://github.com/shivamrajpoot7070/Task_Scheduler_Project",
+    features: ["Task System", "Scheduler", "Worker", "Dead Letter Queue", "Retry Mechanism", "Monitoring Dashboard"],
     image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=800&h=400&fit=crop&q=80"
   }
 ];
@@ -149,7 +149,7 @@ export default function Projects() {
           <span className="section-label">Featured Work</span>
           <h2 className="section-title">Projects</h2>
           <p className="section-subtitle">
-            A collection of projects showcasing my expertise in full-stack development,
+            A collection of projects showcasing my expertise in Backend development,
             security, and real-time applications.
           </p>
         </motion.div>

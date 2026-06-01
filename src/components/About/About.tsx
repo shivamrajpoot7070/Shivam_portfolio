@@ -90,7 +90,7 @@ export default function About() {
 
             
             <p className="about-text">
-              With <span className="highlight">900+ LeetCode</span> problems and <span className="highlight">400+ CodingNinjas</span> solutions, 
+              With <span className="highlight">900+ LeetCode</span> problems and <span className="highlight">500+ CodingNinjas</span> solutions, 
               I've honed my algorithmic thinking and problem-solving skills. When I'm not coding production apps, 
               you'll find me exploring the latest in web technologies and contributing to open-source.
             </p>
@@ -137,7 +137,7 @@ export default function About() {
 
           {/* Activity Graph */}
           <div className="github-activity-graph">
-            <a href="https://github.com/ShubhamKumar6299" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/shivamrajpoot7070" target="_blank" rel="noopener noreferrer">
               <img 
                 src="https://github-readme-activity-graph.vercel.app/graph?username=ShubhamKumar6299&theme=tokyo-night&hide_border=true&area=true&custom_title=Shubham%20Kumar's%20Contribution%20Graph" 
                 alt="GitHub Activity Graph"
@@ -151,21 +151,21 @@ export default function About() {
           <div className="connect-section">
             <h4>🤝 Let's Connect!</h4>
             <div className="connect-links">
-              <a href="https://www.linkedin.com/in/shubhamkumar6299/" target="_blank" rel="noopener noreferrer" className="connect-btn linkedin">
+              <a href="https://www.linkedin.com/in/shivamkumar1828" target="_blank" rel="noopener noreferrer" className="connect-btn linkedin">
                 LINKEDIN
               </a>
-              <a href="https://leetcode.com/u/shubham_4518/" target="_blank" rel="noopener noreferrer" className="connect-btn leetcode">
+              <a href="https://leetcode.com/u/fckinnn_kill_it/" target="_blank" rel="noopener noreferrer" className="connect-btn leetcode">
                 <span>🔥</span> LEETCODE
               </a>
-              <a href="https://www.geeksforgeeks.org/user/shubham_codes/" target="_blank" rel="noopener noreferrer" className="connect-btn gfg">
-                <span>💚</span> GEEKSFORGEEKS
+              <a href="https://www.naukri.com/code360/profile/the_debugger" target="_blank" rel="noopener noreferrer" className="connect-btn gfg">
+                <span>💚</span> CodingNinjas
               </a>
             </div>
           </div>
 
           {/* Snake Contribution */}
           <div className="snake-contribution">
-            <a href="https://github.com/ShubhamKumar6299" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/shivamrajpoot7070" target="_blank" rel="noopener noreferrer">
               <img 
                 src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" 
                 alt="Snake eating contributions"
