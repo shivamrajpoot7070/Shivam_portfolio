@@ -1,0 +1,569 @@
+.skills-section {
+  min-height: 100vh;
+  padding: 6rem 2rem;
+  background: linear-gradient(180deg, #1a1a2e 0%, #0f0f23 50%, #16213e 100%);
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-orbit-container {
+  height: 400px;
+  margin: 3rem 0;
+}
+
+.skill-orbit-label {
+  background: rgba(15, 15, 35, 0.9);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+  backdrop-filter: blur(10px);
+}
+
+.skill-orbit-label .skill-icon {
+  font-size: 0.9rem;
+}
+
+.skill-orbit-label .skill-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+}
+
+.skills-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.skill-category {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.category-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #8b5cf6;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.category-title::before {
+  content: '';
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #8b5cf6, #06b6d4);
+  border-radius: 2px;
+}
+
+.category-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: default;
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  background: rgba(var(--skill-color), 0.1);
+  border-color: var(--skill-color);
+  transform: translateY(-2px);
+}
+
+.skill-card-icon {
+  font-size: 1.2rem;
+}
+
+.skill-card-name {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.coding-stats {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.stats-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card.leetcode {
+  --stat-color: #ffa116;
+}
+
+.stat-card.leetcode:hover {
+  border-color: var(--stat-color);
+  box-shadow: 0 10px 40px rgba(255, 161, 22, 0.2);
+}
+
+.stat-card.gfg {
+  --stat-color: #2f8d46;
+}
+
+.stat-card.gfg:hover {
+  border-color: var(--stat-color);
+  box-shadow: 0 10px 40px rgba(47, 141, 70, 0.2);
+}
+
+.stat-icon {
+  color: var(--stat-color);
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+}
+
+.stat-name {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Coding Profiles Section */
+.coding-profiles-section {
+  margin-top: 4rem;
+  padding: 3rem;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(6, 182, 212, 0.05));
+  border-radius: 24px;
+  border: 1px solid rgba(139, 92, 246, 0.1);
+}
+
+.coding-section-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.title-icon {
+  font-size: 2rem;
+}
+
+/* LeetCode Showcase */
+.leetcode-showcase {
+  background: rgba(255, 161, 22, 0.05);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(255, 161, 22, 0.15);
+}
+
+.leetcode-header {
+  margin-bottom: 1.5rem;
+}
+
+.platform-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.platform-link:hover {
+  transform: translateX(5px);
+}
+
+.problem-count {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffa116;
+  background: rgba(255, 161, 22, 0.15);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  margin-left: 0.5rem;
+}
+
+.leetcode-graph-container {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.leetcode-graph {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.leetcode-badges {
+  margin-top: 1.5rem;
+}
+
+.badges-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1rem;
+}
+
+.badges-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.badge-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.badge-item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 161, 22, 0.3);
+  box-shadow: 0 10px 30px rgba(255, 161, 22, 0.1);
+}
+
+.badge-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.badge-item span {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+/* GFG Showcase */
+.gfg-showcase {
+  background: rgba(47, 141, 70, 0.05);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(47, 141, 70, 0.15);
+}
+
+.gfg-link:hover {
+  color: #2f8d46;
+}
+
+.gfg-count {
+  color: #2f8d46;
+  background: rgba(47, 141, 70, 0.15);
+}
+
+.gfg-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.gfg-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: rgba(47, 141, 70, 0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(47, 141, 70, 0.2);
+}
+
+.gfg-stat-item .stat-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2f8d46;
+}
+
+.gfg-stat-item .stat-label {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 0.25rem;
+}
+
+/* Codolio Showcase */
+.codolio-showcase {
+  background: rgba(139, 92, 246, 0.05);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+.codolio-link:hover {
+  color: #8b5cf6;
+}
+
+.codolio-icon {
+  font-size: 1.5rem;
+}
+
+.view-profile {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #8b5cf6;
+  margin-left: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.codolio-link:hover .view-profile {
+  opacity: 1;
+}
+
+.codolio-embed {
+  margin-top: 1.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.codolio-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.codolio-fallback {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.codolio-fallback.show {
+  display: flex;
+}
+
+.codolio-fallback p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.codolio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.codolio-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
+}
+
+/* All Profiles Links */
+.all-profiles-links {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.profiles-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+}
+
+.profiles-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.profile-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.profile-chip:hover {
+  transform: translateY(-2px);
+}
+
+.leetcode-chip:hover {
+  background: rgba(255, 161, 22, 0.15);
+  border-color: rgba(255, 161, 22, 0.4);
+  color: #ffa116;
+}
+
+.gfg-chip:hover {
+  background: rgba(47, 141, 70, 0.15);
+  border-color: rgba(47, 141, 70, 0.4);
+  color: #2f8d46;
+}
+
+.codolio-chip:hover {
+  background: rgba(139, 92, 246, 0.15);
+  border-color: rgba(139, 92, 246, 0.4);
+  color: #8b5cf6;
+}
+
+.github-chip:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.codechef-chip:hover {
+  background: rgba(92, 64, 51, 0.15);
+  border-color: rgba(92, 64, 51, 0.4);
+  color: #5c4033;
+}
+
+.linkedin-chip:hover {
+  background: rgba(0, 119, 181, 0.15);
+  border-color: rgba(0, 119, 181, 0.4);
+  color: #0077b5;
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 4rem 1rem;
+  }
+  
+  .skills-orbit-container {
+    height: 300px;
+  }
+  
+  .skills-categories {
+    grid-template-columns: 1fr;
+  }
+  
+  .stat-card {
+    padding: 1.25rem 1.75rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .stat-info {
+    align-items: center;
+  }
+  
+  .coding-profiles-section {
+    padding: 1.5rem;
+  }
+  
+  .leetcode-showcase,
+  .gfg-showcase,
+  .codolio-showcase {
+    padding: 1.25rem;
+  }
+  
+  .gfg-stats {
+    gap: 1rem;
+  }
+  
+  .gfg-stat-item {
+    padding: 1rem 1.5rem;
+  }
+  
+  .badges-grid {
+    gap: 1rem;
+  }
+  
+  .badge-item img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .platform-link {
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+  }
+  
+  .problem-count {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
